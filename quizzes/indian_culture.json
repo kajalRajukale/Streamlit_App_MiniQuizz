@@ -1,0 +1,30 @@
+{
+  "meta": { "version": 1, "title": "India — Culture", "subject": "Culture", "locale": "en" },
+  "questions": [
+    {
+      "id": "ic1",
+      "type": "single_choice",
+      "prompt": "Bharatanatyam is a classical dance form originating in which state?",
+      "choices": ["Odisha", "Tamil Nadu", "Kerala", "Manipur"],
+      "answer": 1,
+      "explanation": "Bharatanatyam originated in Tamil Nadu.",
+      "tags": ["dance"]
+    },
+    {
+      "id": "ic2",
+      "type": "short_answer",
+      "prompt": "Name a major Indian festival celebrated with lights.",
+      "answer_text": ["Diwali", "Deepavali", "Dipavali"],
+      "explanation": "Diwali (Deepavali) is the festival of lights.",
+      "tags": ["festivals"]
+    },
+    {
+      "id": "ic3",
+      "type": "true_false",
+      "prompt": "Sitar is a percussion instrument.",
+      "answer": false,
+      "explanation": "Sitar is a plucked string instrument.",
+      "tags": ["music"]
+    }
+  ]
+}

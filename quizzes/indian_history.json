@@ -1,0 +1,39 @@
+{
+  "meta": { "version": 1, "title": "India — History", "subject": "History", "locale": "en" },
+  "questions": [
+    {
+      "id": "ih1",
+      "type": "single_choice",
+      "prompt": "Who is known as the 'Father of the Nation' in India?",
+      "choices": ["Subhas Chandra Bose", "Mahatma Gandhi", "Bhagat Singh", "Sardar Patel"],
+      "answer": 1,
+      "explanation": "Mahatma Gandhi is widely regarded as the Father of the Nation for his leadership of the freedom movement.",
+      "tags": ["freedom"]
+    },
+    {
+      "id": "ih2",
+      "type": "single_choice",
+      "prompt": "In which year did India gain independence?",
+      "choices": ["1945", "1946", "1947", "1950"],
+      "answer": 2,
+      "explanation": "India gained independence on 15 August 1947.",
+      "tags": ["freedom", "dates"]
+    },
+    {
+      "id": "ih3",
+      "type": "true_false",
+      "prompt": "The Battle of Plassey was fought in 1757.",
+      "answer": true,
+      "explanation": "It marked the beginning of British political control in India.",
+      "tags": ["colonial"]
+    },
+    {
+      "id": "ih4",
+      "type": "short_answer",
+      "prompt": "Name the author of 'Arthashastra'.",
+      "answer_text": ["Kautilya", "Chanakya", "Vishnugupta"],
+      "explanation": "Kautilya (Chanakya) is traditionally credited with the Arthashastra.",
+      "tags": ["ancient"]
+    }
+  ]
+}

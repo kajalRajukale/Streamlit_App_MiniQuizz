@@ -1,0 +1,31 @@
+{
+  "meta": { "version": 1, "title": "India — Geography", "subject": "Geography", "locale": "en" },
+  "questions": [
+    {
+      "id": "ig1",
+      "type": "single_choice",
+      "prompt": "What is the longest river in India (within India)?",
+      "choices": ["Ganga (Ganges)", "Godavari", "Yamuna", "Narmada"],
+      "answer": 1,
+      "explanation": "The Ganga is longer overall, but the Godavari is the longest river entirely within India.",
+      "tags": ["rivers"]
+    },
+    {
+      "id": "ig2",
+      "type": "multi_select",
+      "prompt": "Select Indian Union Territories:",
+      "choices": ["Delhi", "Ladakh", "Kerala", "Puducherry"],
+      "answer": [0, 1, 3],
+      "explanation": "Delhi (NCT), Ladakh, and Puducherry are UTs; Kerala is a state.",
+      "tags": ["admin"]
+    },
+    {
+      "id": "ig3",
+      "type": "true_false",
+      "prompt": "The Tropic of Cancer passes through India.",
+      "answer": true,
+      "explanation": "It passes roughly through the middle of India.",
+      "tags": ["latlong"]
+    }
+  ]
+}

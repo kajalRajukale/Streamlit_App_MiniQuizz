@@ -1,0 +1,24 @@
+{
+  "meta": { "version": 1, "title": "General Knowledge (Sample)", "subject": "General", "locale": "en" },
+  "questions": [
+    {
+      "id": "gq1",
+      "type": "single_choice",
+      "prompt": "Which planet is called the Red Planet?",
+      "choices": ["Earth", "Venus", "Mars", "Jupiter"],
+      "answer": 2,
+      "explanation": "Mars looks red due to iron oxide on its surface.",
+      "difficulty": "easy",
+      "tags": ["space"]
+    },
+    {
+      "id": "gq2",
+      "type": "true_false",
+      "prompt": "The Pacific Ocean is the largest ocean on Earth.",
+      "answer": true,
+      "explanation": "The Pacific is the largest by area.",
+      "difficulty": "easy",
+      "tags": ["geo"]
+    }
+  ]
+}

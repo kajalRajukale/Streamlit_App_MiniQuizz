@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"ms-python.python",
+			"ms-python.debugpy",
+			"ms-python.vscode-pylance",
+			"charliermarsh.ruff",
+			"mechatroner.rainbow-csv"
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Python:Streamlit",
+				"type": "debugpy",
+				"request": "launch",
+				"module": "streamlit",
+				"args": [
+					"run",
+					"${file}"
+				]
+			}
+		]
+	}
+}
